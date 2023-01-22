@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair', sans-serif;
+}
+
+.block {
+    display: grid;
+    grid-template-columns: repeat(4, 475px);
+    text-align: center;
+    background-color: #303952;
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    padding: 30px;
+    background-color: #303952;
+    color: white;
+}

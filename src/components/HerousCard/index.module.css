@@ -1,0 +1,31 @@
+.card {
+    border: 2px solid #303952;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    max-width: 500px;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #a0afda;
+    color: white;
+    transition: all 0.3s;
+}
+
+.anime_title {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.avatar {
+    width: 400px;
+    height: 480px;
+    object-fit: cover;
+    padding-top: 5px;
+}
